@@ -1,6 +1,7 @@
 # Addition skills
 
-Twenty agent skills for SEO, AEO and GEO, paid ads, CRO and content, in the
+Twenty agent skills for SEO, AEO and GEO, paid ads, CRO and content, plus five
+packs Addition wrote for its own client work (marked "Addition" below), in the
 [Agent Skills](https://agentskills.io) format: one folder per skill, a SKILL.md,
 and the reference files the skill loads on demand. They run in Claude Code,
 Cursor, Codex, Windsurf and any agent that reads SKILL.md.
@@ -43,6 +44,11 @@ Or copy a folder into `~/.claude/skills/` (every project) or `.claude/skills/`
 | Content | [Seven-sweep copy editing](skills/copy-editing/) | `copy-editing` | Clarity, voice, so-what, proof, specificity, emotion, zero risk. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) @ 5b2c000 | MIT |
 | Content | [SEO article writer](skills/write-content/) | `write-content` | Research, content-type decision, knowledge extraction, then the draft, with an anti-slop ruleset. | [inhouseseo/superseo-skills](https://github.com/inhouseseo/superseo-skills) @ 9cf22cc | Apache-2.0 |
 | Content | [Pre-publish editorial QA](skills/editorial-qa/) | `editorial-qa` | Brief adherence, fact checks, the AI-content audit and AEO checks before shipping. | [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) @ a67dd34 | MIT |
+| SEO | [Search Console performance review](skills/search-console-analysis/) | `search-console-analysis` | Pulls more Search Console rows than the interface export and compares two windows, with every limit named. | Addition, 2.0.0 | MIT |
+| SEO | [Sixteen SEO playbooks](skills/ai-seo-skills/) | `ai-seo-skills` | One installable skill; the agent selects the playbook matching the job and follows only that one. | Addition, 2.0.0 | MIT |
+| Paid ads | [Google Ads audit from your exports](skills/google-ads-audit/) | `google-ads-audit` | Six review areas over normalised CSV exports; every finding carries its spend; nothing paste-ready. | Addition, 2.0.0 | MIT |
+| Paid ads | [Google Ads experiments](skills/google-ads-experiments/) | `google-ads-experiments` | Pre-register the test, then read it; the helper describes and never calls a winner. | Addition, 2.0.0 | MIT |
+| Paid ads | [Google Ads planning and review](skills/google-ads-department/) | `google-ads-department` | Intake, change review, weekly report and handover as one workflow; reviews, applies nothing. | Addition, 2.0.0 | MIT |
 
 Five more skills on the site come from the claude-seo plugin and are installed
 as that plugin:
